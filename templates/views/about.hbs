@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Admin</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>ADD A ROOM</p>
+        <form>
+            <input type="text" placeholder="Room Number"/>
+            <input type="text" placeholder="Room type"/>
+            <input type="text" placeholder="Beds Count"/>
+            <input type="text" placeholder="Price"/>
+            <input type="text" placeholder="No Of Adults"/>
+            <input type="text" placeholder="No of Children"/>
+            <input type="text" placeholder="hotel_id"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
+    
+    {{>footer}}
+    <script src="/js/app2.js"></script>
+</body>
+
+</html>
